@@ -1,0 +1,296 @@
+h1{
+    color: rgb(21, 78, 14);
+    font-style: italic;
+    font-weight:800;
+    font-size:2rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    
+
+} 
+
+
+ul{
+    list-style: none;
+    font-style: italic;
+    font-weight:700;
+    font-family: 'Oswald', sans-serif;
+    font-size:1rem; 
+    text-align: center;
+}
+
+li{
+    display: inline;
+    text-align: center;
+    margin: 1rem;
+    
+}
+
+/* Boton*/
+.tarjetaboton{
+        display: inline-block;
+        margin-top: 10px;
+        color: rgb(2, 5, 5);
+        font-size: 20px;
+        text-decoration: none;
+        background-color: rgb(80, 92, 79);
+        padding: 10px;    
+    }
+
+/* Mate */
+
+.titulo1{
+    font-size: 3rem;
+	line-height: 4rem;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+
+.titulo_mate1{
+    text-align: center;
+}
+
+.titulo_mate2{
+    text-align: center;
+}
+
+.titulo_mate3{
+    text-align: center;
+}
+
+.titulo_mate4{
+    text-align: center;
+}
+
+
+.slider-producto{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+    }
+
+    .img_mate1{
+        min-width: 300px;
+        height: 400px;
+    }
+
+    .img_mate2{
+        width: 300px;;
+        height: 400px;
+    }
+
+    .img_mate3{
+        width: 300px;;
+        height: 400px;
+    }
+
+    .img_mate4{
+        width: 300px;;
+        height: 400px;
+    }
+
+
+
+    /* Bombilla */
+
+    .slider-producto2{
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        overflow-x: auto;
+        }
+
+        .titulo2{
+            font-size: 3rem;
+            line-height: 4rem;
+            margin: 15px 0;
+            text-align: center;
+            font-weight: 500;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .titulo_bombilla1{
+            text-align: center;
+        }
+        
+        .titulo_bombilla2{
+            text-align: center;
+        }
+
+        .titulo_bombilla3{
+            text-align: center;
+        }
+        
+        .titulo_bombilla4{
+            text-align: center;
+        }
+
+        .img_bombilla1{
+            width: 300px;;
+            height: 400px;
+        }
+    
+        .img_bombilla2{
+            width: 300px;;
+            height: 400px;
+        }
+    
+        .img_bombilla3{
+            width: 300px;;
+            height: 400px;
+        }
+    
+        .img_bombilla4{
+            width: 300px;;
+            height: 400px;
+        }
+
+        /* Termo */
+
+        .slider-producto3{
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            overflow-x: auto;
+            }
+    
+            .titulo3{
+                font-size: 3rem;
+                line-height: 4rem;
+                margin: 15px 0;
+                text-align: center;
+                font-weight: 500;
+                font-family: 'Oswald', sans-serif;
+            }
+    
+            .titulo_termos1{
+                text-align: center;
+            }
+            
+            .titulo_termos2{
+                text-align: center;
+            }
+    
+            .titulo_termos3{
+                text-align: center;
+            }
+            
+            .titulo_termos4{
+                text-align: center;
+            }
+    
+            .img_termos1{
+                width: 300px;;
+                height: 400px;
+            }
+        
+            .img_termos2{
+                width: 300px;;
+                height: 400px;
+            }
+        
+            .img_termos3{
+                width: 300px;;
+                height: 400px;
+            }
+        
+            .img_termos4{
+                width: 300px;;
+                height: 400px;
+            }
+
+
+            /* Contactanos*/
+
+            .contacto_fondo{
+                background-color: rgba(117, 134, 86, 0.692);
+            }
+
+            .formu{
+                background-color: rgb(108, 148, 108);
+                width: 30rem;
+                position: sticky;
+                top: 30%;
+                left: 30%;
+                transform: translate(-50, -50%);
+                box-shadow: 7px 13px 37 rgb(16, 66, 1);
+                padding: 5rem;
+                overflow: hidden;
+                color: rgb(12, 10, 10);  
+            }
+
+            .formu label, .formu input, .formu textarea{
+                display: block;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .formu label{
+                font-weight: 700;
+            }
+
+            .formu input :not([type='submit']) {
+                border-radius: 2rem;
+                border-bottom: 2px solid black;
+                margin-bottom: 5px;
+                font-size: 20px;
+                outline: none;
+
+            }
+
+            .formu textarea{
+                min-height: 200px;
+            }
+
+            input[type='submit']{
+                padding: 10px;
+                border: none;
+                background-color: rgb(25, 25, 73);
+                color: white;
+                font-size: 10px;
+                cursor: pointer;
+            }
+
+
+
+            .contacto1{
+                font-size: 3rem;
+                line-height: 4rem;
+                margin: 15px 0;
+                text-align: center;
+                font-weight: 500;
+                font-family: 'Oswald', sans-serif;
+            }
+
+            /* Index */
+
+            .tituloindex{
+                font-size: 3rem;
+	            line-height: 4rem;
+	            margin: 15px 0;
+	            text-align: center;
+	            font-weight: 500;
+                font-family: 'Oswald', sans-serif;
+            }
+
+            .img_equipo1{
+                min-width: 300px;;
+                height: 400px;
+                display: block;
+                margin: auto; 
+            }
+
+            /* Footer index */
+
+            .footer1{
+                background-color: rgb(11, 114, 50);
+                padding: 0rem;
+                text-align: center;
+                position: relative;
+                bottom: 0;
+                width: 100%;
+                border: 5px solid black;
+            }
